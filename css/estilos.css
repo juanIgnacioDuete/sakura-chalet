@@ -33,14 +33,11 @@ header {
     align-items: center;
     background-color: #d3c2b1;
 }
-
 .main__menu li a:hover {
-    color: rgba(0, 0, 0, 1);
-    transition: color 1s;
+    color: black;
+    transform-origin: color 1.2s;
 }
-
-
-
+    
 @media screen and (min-width: 720px) {
     
     
@@ -123,10 +120,10 @@ h1 {
 }
 
 .portada__btn:hover {
-    background-color: rgba(0, 0, 0, 1);
-    transition: background-color 1s;
+    background-color: black;
+    transition: background-color 1.2s;
     transform: scale(1.1);
-    transition: transform 1s;
+    transition: transform 1.2s;
 }
 
 .masInfo {
@@ -229,7 +226,7 @@ h1 {
 
 .masInfo__box a:hover {
     transform: scale(1.2);
-    transition: transform 1s;
+    transition: transform 1.2s;
 }
 
 h2 {
