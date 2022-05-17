@@ -45,11 +45,14 @@ header {
         flex-direction: row;
     }
     
+    h1 {
+        font-size: 5rem;
+    }
 
 }
 
 .main__menu__item {
-    padding: 1em;
+    padding: 1rem;
 }
 
 .main__menu__link {
@@ -114,7 +117,7 @@ h1 {
     padding: 1rem;
     margin: 2rem;
     border: none;
-    border-radius: 1em;
+    border-radius: 1rem;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
     
 }
@@ -131,15 +134,15 @@ h1 {
     margin-bottom: 100px;
     display: flex;
     justify-content: center;
-    padding: 1em;
+    padding: 1rem;
 }
 .masInfo__box {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 10px;
+    padding: 1rem;
     background-color: #d3c2b1;
-    max-width: 700px;
+    max-width: 3rem;
     color: white;
     border: none;
     border-radius: 1em;
