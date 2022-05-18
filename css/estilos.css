@@ -245,6 +245,10 @@ h2 {
     justify-content: space-between;
 }
 
+.container {
+    margin-bottom: 3rem;
+}
+
 footer {
     grid-area: footer;
 }
